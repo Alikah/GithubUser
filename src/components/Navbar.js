@@ -16,7 +16,7 @@ const Navbar = () => {
       {isUser && user.picture && <img src={user.picture} alt={user.name} />}
       {isUser && user.name && (
         <h4>
-          welcom, <strong>{user.name.toUpperCase()}</strong>
+          welcome, <strong>{user.name.toUpperCase()}</strong>
         </h4>
       )}
       {isUser ? (
